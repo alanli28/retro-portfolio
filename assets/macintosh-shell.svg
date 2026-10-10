@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="750" viewBox="0 0 600 750">
+<defs>
+<linearGradient id="case" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eee9d3"/><stop offset=".55" stop-color="#dcd5ba"/><stop offset="1" stop-color="#cfc6a7"/></linearGradient>
+<linearGradient id="side"><stop stop-color="#f9f6e8"/><stop offset="1" stop-color="#bab194"/></linearGradient>
+<linearGradient id="base" x2="0" y2="1"><stop stop-color="#aaa186"/><stop offset=".25" stop-color="#cfc6a7"/><stop offset="1" stop-color="#dcd4b9"/></linearGradient>
+<linearGradient id="recess" x2="1" y2="1"><stop stop-color="#8e866d"/><stop offset=".4" stop-color="#c8bfa1"/><stop offset=".8" stop-color="#f5f0de"/><stop offset="1" stop-color="#e1dac0"/></linearGradient>
+<linearGradient id="disk" x2="0" y2="1"><stop stop-color="#9c9275"/><stop offset="1" stop-color="#f0e9cf"/></linearGradient>
+<linearGradient id="rainbow" x2="0" y2="1"><stop stop-color="#70a84b"/><stop offset=".2" stop-color="#70a84b"/><stop offset=".2" stop-color="#ead84b"/><stop offset=".38" stop-color="#ead84b"/><stop offset=".38" stop-color="#ec9d35"/><stop offset=".55" stop-color="#ec9d35"/><stop offset=".55" stop-color="#d95443"/><stop offset=".72" stop-color="#d95443"/><stop offset=".72" stop-color="#9454a0"/><stop offset=".86" stop-color="#9454a0"/><stop offset=".86" stop-color="#429dcc"/></linearGradient>
+<mask id="opening"><rect width="600" height="750" fill="white"/><path d="M 122.40 103.97 C 228.96 96.10 371.04 96.10 477.60 103.97 C 502.02 105.68 510.90 114.23 512.23 133.04 C 519.34 215.12 519.34 310.88 512.23 392.96 C 510.90 411.77 502.02 420.32 477.60 422.03 C 371.04 429.90 228.96 429.90 122.40 422.03 C 97.98 420.32 89.10 411.77 87.77 392.96 C 80.66 310.88 80.66 215.12 87.77 133.04 C 89.10 114.23 97.98 105.68 122.40 103.97 Z" fill="black"/></mask>
+</defs>
+<g mask="url(#opening)">
+<rect x="34" y="639" width="532" height="93" rx="11" fill="url(#base)"/>
+<rect x="445" y="680" width="92" height="38" rx="3" fill="#b7ad90" stroke="#e6ddc0"/>
+<path d="M502 686h18v5h5v6h5v16h-37v-16h5v-6h4z" fill="#242720"/>
+<circle cx="100" cy="702" r="6" fill="#252821" stroke="#eee8d2" stroke-width="2"/>
+<rect x="14" y="14" width="572" height="653" rx="12" fill="url(#side)"/>
+<path d="M29 30h542l-13 17H44z" fill="#f6f2df"/>
+<path d="M29 30l15 17v589l-15 16z" fill="#faf6e7"/>
+<path d="M571 30l-13 17v589l13 16z" fill="#bdb496"/>
+<path d="M29 652l15-16h514l13 16z" fill="#bcb396"/>
+<rect x="44" y="47" width="514" height="589" rx="2" fill="url(#case)"/>
+<rect x="64" y="76" width="472" height="374" rx="6" fill="url(#recess)"/>
+<path d="M64 76h472l-19 24H83z" fill="#9b9274" opacity=".65"/>
+<path d="M64 76l19 24v327l-19 23z" fill="#b2a88a"/>
+<path d="M536 76l-19 24v327l19 23z" fill="#f4efdc"/>
+<path d="M64 450l19-23h434l19 23z" fill="#e9e2ca"/>
+<path d="M 122.40 103.97 C 228.96 96.10 371.04 96.10 477.60 103.97 C 502.02 105.68 510.90 114.23 512.23 133.04 C 519.34 215.12 519.34 310.88 512.23 392.96 C 510.90 411.77 502.02 420.32 477.60 422.03 C 371.04 429.90 228.96 429.90 122.40 422.03 C 97.98 420.32 89.10 411.77 87.77 392.96 C 80.66 310.88 80.66 215.12 87.77 133.04 C 89.10 114.23 97.98 105.68 122.40 103.97 Z" fill="#171e1b" stroke="#242b24" stroke-width="8"/>
+<path d="M 122.40 103.97 C 228.96 96.10 371.04 96.10 477.60 103.97 C 502.02 105.68 510.90 114.23 512.23 133.04 C 519.34 215.12 519.34 310.88 512.23 392.96 C 510.90 411.77 502.02 420.32 477.60 422.03 C 371.04 429.90 228.96 429.90 122.40 422.03 C 97.98 420.32 89.10 411.77 87.77 392.96 C 80.66 310.88 80.66 215.12 87.77 133.04 C 89.10 114.23 97.98 105.68 122.40 103.97 Z" fill="none" stroke="#18211c" stroke-width="2"/>
+<path d="M326 552h181l-12 9H338z" fill="#a89d7c"/>
+<rect x="338" y="560" width="166" height="29" rx="2" fill="url(#disk)"/>
+<rect x="348" y="570" width="147" height="11" fill="#151915"/>
+<rect x="455" y="552" width="50" height="34" rx="5" fill="url(#disk)"/>
+<path d="M455 573h50v17h-50z" fill="#141914"/>
+<circle cx="517" cy="586" r="2.5" fill="#252b22"/>
+<rect x="67" y="590" width="35" height="40" rx="3" fill="#d4cdb4" stroke="#b3aa8f"/>
+<path d="M85 597q1-7 8-7q-1 7-8 7M83 600q-9-4-12 7q-2 10 7 19q3 3 7 0q5 3 8-2l5-8q-9-3-3-12q-6-7-12-4" fill="url(#rainbow)"/>
+<text x="115" y="621" font-family="Georgia,serif" font-size="19" fill="#8d856e">Macintosh<tspan font-size="10"> by Apple</tspan></text>
+</g></svg>

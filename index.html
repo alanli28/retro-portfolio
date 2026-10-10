@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A free retro-computer portfolio template with a CRT display and draggable project notes.">
+  <title>Your Name — Portfolio</title>
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav"><a class="wordmark" href="#about" data-name>Your Name</a></header>
+  <main>
+    <section id="about" class="about">
+      <h1><span id="headline">A little curiosity.</span><br><em id="headline-accent">A lot of possibility.</em></h1>
+      <div class="about-bottom"><p id="bio">A collection of imaginary projects and playful experiments.</p></div>
+      <a class="scroll-link" href="#work">Explore the projects <span>↓</span></a>
+    </section>
+    <section id="work" class="work">
+      <div class="work-head"><h2>Selected work</h2><div class="filters" role="group" aria-label="Filter work">
+        <button data-filter="all" aria-pressed="true">All <sup>6</sup></button>
+        <button data-filter="design" aria-pressed="false">Design <sup>3</sup></button>
+        <button data-filter="project" aria-pressed="false">Projects <sup>3</sup></button>
+      </div></div>
+      <div id="projects"></div>
+    </section>
+    <section class="closing"><span class="eyebrow">SAY HELLO</span><h2>Good things start<br>with a conversation.</h2><a id="email" href="mailto:hello@example.com">hello@example.com ↗</a></section>
+  </main>
+  <footer><a href="#about" data-name>Your Name</a><span id="footer-copy">Selected work & things in progress.</span></footer>
+  <dialog id="detail" aria-labelledby="detail-title"><button id="close" aria-label="Close project">Close ×</button><div id="detail-content"></div></dialog>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+  <script src="crt.js"></script>
+</body>
+</html>
