@@ -16,9 +16,9 @@ Open http://localhost:4173. Scroll inside the computer, open a project, then dra
 
 ## Make it yours
 
-Edit **config.js**: name, page title, headline, biography, email, footer, and projects. All included text describes fictional projects; all project illustrations are local SVG samples.
+Edit **config.js**: name, page title, headline, biography, contact link (or email), footer, and projects. The default demo imagines a portfolio for Thibault “Tibo” Sottiaux at OpenAI. Biography prose is invented sample copy, not a quotation. Two cards reference public team work / an appearance; four Research and Design cards are explicitly hypothetical. All illustrations are local SVG samples.
 
-Each project has `title`, `tag` (`design` or `project`), `context`, `image`, `summary`, `text`, and optional `links`. Put images in `assets/projects/` and set `image` to the filename. Optional `video` accepts a relative URL or an HTTPS URL. Add links as `["Visit project", "https://example.com"]` pairs. Keep content as plain text. Customize colors and layout in `style.css`; display settings live in `crt.js`.
+Each project has `title`, `tag` (`research`, `design`, or `project`), `context`, `image`, `summary`, `text`, and optional `links`. Put images in `assets/projects/` and set `image` to the filename. Optional `video` accepts a relative URL or an HTTPS URL. Add links as `["Visit project", "https://example.com"]` pairs. Keep content as plain text. Customize colors and layout in `style.css`; display settings live in `crt.js`.
 
 ## Deploy
 
@@ -30,7 +30,13 @@ Each project has `title`, `tag` (`design` or `project`), `context`, `image`, `su
 
 The screen scrolls independently from the surrounding scene. Project notes float over the desktop and have their own scrolling. The layout adapts to smaller screens; this is intentionally a miniature-computer presentation. The opening animation respects reduced-motion preferences. CRT distortion uses SVG filters, whose appearance varies by browser; CRT OFF removes the effect.
 
-No analytics, cookies, remote fonts, personal documents, or external storage are included. Project links are empty by default, and the email is a reserved example address.
+No analytics, cookies, remote fonts, personal documents, or external storage are included. The default contact points to Tibo’s public X profile; no private email or personal documents are included. Replace the public contact, name, and sample work before deploying your own portfolio.
+
+## About the example
+
+This is an unofficial, speculative template demonstration. It is not Tibo’s website and is not affiliated with or endorsed by Tibo or OpenAI. It does not claim that Tibo authored the hypothetical research or design projects. The public identity and Codex connection are based on this [OpenAI Forum speaker introduction](https://forum.openai.com/public/events/codex-is-for-everyone-why-codex-matters-beyond-code-fa40puy7wi). The first-person biography and project presentation are imagined for demonstration.
+
+To use a neutral identity, change `name`, `title`, `bio`, `contactLabel`, `contactUrl`, `footer`, and `projects` in `config.js`. Remove `caseNotice` when you have replaced the demo with your own content. You can use `email` instead of `contactUrl` / `contactLabel`.
 
 ## Contributing
 

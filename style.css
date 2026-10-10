@@ -210,3 +210,8 @@ body{overflow:hidden;background:radial-gradient(ellipse at 50% 40%,#f0efeb,#cfce
 #crt-background{width:100%;min-width:0;padding:7px 5px;border:1px solid #a5b19d;border-radius:6px;background:#f0f3eb;color:#46523f;font:11px Arial,sans-serif}
 
 .note-hint{font-size:8px;color:#777;margin-left:auto}.template-link{text-decoration:underline}
+
+/* Concept-case context remains visible alongside the sample biography. */
+.case-notice{font-size:9px;line-height:1.5;color:#666;margin:14px 0 0;max-width:42em}.filters{flex-wrap:wrap}.tag.research{background:#e9e5f1;color:#635573}
+
+#about{scroll-margin-top:70px}
