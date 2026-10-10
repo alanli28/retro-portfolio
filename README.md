@@ -42,6 +42,10 @@ To use a neutral identity, change `name`, `title`, `bio`, `contactLabel`, `conta
 
 Useful contributions include browser fixes, mobile usability improvements, and new visual themes. Please describe the change and include before/after screenshots for visual updates.
 
+## Credits
+
+The CRT visual direction and adjustable display controls were inspired by [gingerbeardman’s WebGL CRT Shader (Serenity Shader)](https://github.com/gingerbeardman/webgl-crt-shader). Thank you for sharing the original project. This template’s current CRT implementation uses SVG displacement filters and CSS overlays; it does not bundle the original WebGL shader. See [ATTRIBUTION.md](ATTRIBUTION.md) for source and image credits.
+
 ## License
 
 Template code and original SVG sample illustrations are provided under the MIT license. Third-party product artwork and paper previews retain their original rights and are excluded from the MIT grant; see [ATTRIBUTION.md](ATTRIBUTION.md). The retro computer illustration is inspired by classic Macintosh hardware; product names and brand marks belong to their respective owners and are not granted by the software license. No affiliation or endorsement is implied.

@@ -1,4 +1,10 @@
-# Demo sources and image credits
+# Sources and credits
+
+## CRT inspiration
+
+The CRT visual direction and adjustable display controls were inspired by [gingerbeardman’s WebGL CRT Shader (Serenity Shader)](https://github.com/gingerbeardman/webgl-crt-shader), an MIT-licensed open-source project. The original demo was a reference during early exploration. The published template uses SVG displacement filters and CSS overlays rather than bundling the original WebGL shader.
+
+## Demo sources and image credits
 
 This unofficial portfolio uses real public references. They are related reading and interface studies, not claims of Tibo’s authorship or endorsement.
 
