@@ -16,9 +16,9 @@ Open http://localhost:4173. Scroll inside the computer, open a project, then dra
 
 ## Make it yours
 
-Edit **config.js**: name, page title, headline, biography, contact link (or email), footer, and projects. The default demo imagines a portfolio for Thibault “Tibo” Sottiaux at OpenAI. Biography prose is invented sample copy, not a quotation. Project cards reference public team work and a public appearance. Research cards link to real related papers and code; Design cards study public interfaces. These are editorial examples, not claims of personal authorship. Real demo images are bundled locally; see [image credits](ATTRIBUTION.md).
+Edit **config.js**: name, page title, headline, biography, contact link (or email), footer, and projects. The default demo imagines a portfolio for Thibault “Tibo” Sottiaux at OpenAI. Biography prose is invented sample copy, not a quotation. Project cards reference public team work and a public appearance. Research cards link to real related papers and code; Design cards study public interfaces. These are editorial examples, not claims of personal authorship. Selected-work covers are original, simple SVG icons. Sticky notes omit decorative covers; an optional `noteImage` is used only for explanatory imagery, such as the CLI interface. See [image credits](ATTRIBUTION.md).
 
-Each project has `title`, `tag` (`research`, `design`, or `project`), `context`, `image`, `summary`, `text`, and optional `links`. Put images in `assets/projects/` and set `image` to the filename. Optional `video` accepts a relative URL or an HTTPS URL. Add links as `["Visit project", "https://example.com"]` pairs. Keep content as plain text. Customize colors and layout in `style.css`; display settings live in `crt.js`.
+Each project has `title`, `tag` (`research`, `design`, or `project`), `context`, `image`, `summary`, `text`, and optional `links` and `noteImage`. Put images in `assets/projects/` and set `image` to the filename. Optional `video` accepts a relative URL or an HTTPS URL. Add links as `["Visit project", "https://example.com"]` pairs. Keep content as plain text. Customize colors and layout in `style.css`; display settings live in `crt.js`.
 
 ## Deploy
 

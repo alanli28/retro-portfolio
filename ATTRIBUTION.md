@@ -17,3 +17,7 @@ The six `sample-*.svg` files are original neutral alternatives covered by MIT. S
 Original image URL for the app cover: https://images.ctfassets.net/kftzwdyauwt9/7E1L5KrvfinYdmBBNDPhf5/710a8a46258bafe8fe2d26f31ff242c0/Codex_Landing_Page_SEO.png
 
 Original event image URL: https://d2xo500swnpgl1.cloudfront.net/uploads/openai/5-13-26-Event-Card-577af545-d390-4c81-8187-6e291e2b2f5d-1778209442957.jpeg
+
+## Current presentation
+
+`cover-1.svg` through `cover-6.svg` are original vector icons released under MIT. They are illustrative symbols, not official product logos. Work covers are not repeated inside sticky notes. Only the terminal-interface case currently uses a third-party detail image (`codex-cli.png`), because it illustrates the interface being discussed. Other previously collected reference images remain available as optional assets.

@@ -217,3 +217,6 @@ body{overflow:hidden;background:radial-gradient(ellipse at 50% 40%,#f0efeb,#cfce
 #about{scroll-margin-top:70px}
 
 .project-row[data-tag="research"] .project-image{object-fit:contain;background:#f5f3e8}.sticky-note .note-body>img{object-fit:contain;background:#fff}.image-credit{display:block;font:8px/1.4 Arial,sans-serif;color:#666;margin:6px 0 12px}.note-links{display:flex;flex-wrap:wrap;gap:8px}
+
+/* Quiet concept caption and legible, simple work covers. */
+.case-notice{font:7px/1.4 Arial,sans-serif;color:#777;margin:8px 0 0}.project-row .project-image{object-fit:contain;border-radius:4px;background:transparent}.project-row[data-tag="research"] .project-image{background:transparent}.sticky-note .note-body>img{margin:12px 0;object-fit:contain}
