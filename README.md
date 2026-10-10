@@ -1,6 +1,6 @@
 # Retro Portfolio
 
-A free, retro-computer portfolio template with a curved CRT display and project notes you can drag, rotate, and collect. Built with plain HTML, CSS, and JavaScript. No packages, build step, or external assets.
+A free, retro-computer portfolio template with a curved CRT display and project notes you can drag, rotate, and collect. Built with plain HTML, CSS, and JavaScript. No packages or build step. Demo images are bundled locally.
 
 ![Retro Portfolio preview](preview.jpg)
 
@@ -16,7 +16,7 @@ Open http://localhost:4173. Scroll inside the computer, open a project, then dra
 
 ## Make it yours
 
-Edit **config.js**: name, page title, headline, biography, contact link (or email), footer, and projects. The default demo imagines a portfolio for Thibault “Tibo” Sottiaux at OpenAI. Biography prose is invented sample copy, not a quotation. Two cards reference public team work / an appearance; four Research and Design cards are explicitly hypothetical. All illustrations are local SVG samples.
+Edit **config.js**: name, page title, headline, biography, contact link (or email), footer, and projects. The default demo imagines a portfolio for Thibault “Tibo” Sottiaux at OpenAI. Biography prose is invented sample copy, not a quotation. Project cards reference public team work and a public appearance. Research cards link to real related papers and code; Design cards study public interfaces. These are editorial examples, not claims of personal authorship. Real demo images are bundled locally; see [image credits](ATTRIBUTION.md).
 
 Each project has `title`, `tag` (`research`, `design`, or `project`), `context`, `image`, `summary`, `text`, and optional `links`. Put images in `assets/projects/` and set `image` to the filename. Optional `video` accepts a relative URL or an HTTPS URL. Add links as `["Visit project", "https://example.com"]` pairs. Keep content as plain text. Customize colors and layout in `style.css`; display settings live in `crt.js`.
 
@@ -34,7 +34,7 @@ No analytics, cookies, remote fonts, personal documents, or external storage are
 
 ## About the example
 
-This is an unofficial, speculative template demonstration. It is not Tibo’s website and is not affiliated with or endorsed by Tibo or OpenAI. It does not claim that Tibo authored the hypothetical research or design projects. The public identity and Codex connection are based on this [OpenAI Forum speaker introduction](https://forum.openai.com/public/events/codex-is-for-everyone-why-codex-matters-beyond-code-fa40puy7wi). The first-person biography and project presentation are imagined for demonstration.
+This is an unofficial, speculative template demonstration. It is not Tibo’s website and is not affiliated with or endorsed by Tibo or OpenAI. It does not claim that Tibo authored the listed papers or personally designed the featured interfaces. The public identity and Codex connection are based on this [OpenAI Forum speaker introduction](https://forum.openai.com/public/events/codex-is-for-everyone-why-codex-matters-beyond-code-fa40puy7wi). The first-person biography and project presentation are imagined for demonstration.
 
 To use a neutral identity, change `name`, `title`, `bio`, `contactLabel`, `contactUrl`, `footer`, and `projects` in `config.js`. Remove `caseNotice` when you have replaced the demo with your own content. You can use `email` instead of `contactUrl` / `contactLabel`.
 
@@ -44,4 +44,4 @@ Useful contributions include browser fixes, mobile usability improvements, and n
 
 ## License
 
-Code and bundled sample illustrations are provided under the MIT license. The retro computer illustration is inspired by classic Macintosh hardware; product names and brand marks belong to their respective owners and are not granted by the software license. No affiliation or endorsement is implied.
+Template code and original SVG sample illustrations are provided under the MIT license. Third-party product artwork and paper previews retain their original rights and are excluded from the MIT grant; see [ATTRIBUTION.md](ATTRIBUTION.md). The retro computer illustration is inspired by classic Macintosh hardware; product names and brand marks belong to their respective owners and are not granted by the software license. No affiliation or endorsement is implied.

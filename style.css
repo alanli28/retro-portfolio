@@ -215,3 +215,5 @@ body{overflow:hidden;background:radial-gradient(ellipse at 50% 40%,#f0efeb,#cfce
 .case-notice{font-size:9px;line-height:1.5;color:#666;margin:14px 0 0;max-width:42em}.filters{flex-wrap:wrap}.tag.research{background:#e9e5f1;color:#635573}
 
 #about{scroll-margin-top:70px}
+
+.project-row[data-tag="research"] .project-image{object-fit:contain;background:#f5f3e8}.sticky-note .note-body>img{object-fit:contain;background:#fff}.image-credit{display:block;font:8px/1.4 Arial,sans-serif;color:#666;margin:6px 0 12px}.note-links{display:flex;flex-wrap:wrap;gap:8px}

@@ -1,4 +1,4 @@
-// Editable, unofficial Tibo concept portfolio. Hypothetical work is labeled explicitly.
+// Editable, unofficial concept portfolio. Real sources; editorial sample copy.
 window.PORTFOLIO = {
   "name": "Tibo",
   "title": "Tibo — A concept portfolio",
@@ -14,65 +14,141 @@ window.PORTFOLIO = {
       "title": "Codex",
       "tag": "project",
       "context": "OpenAI · Public team work",
-      "image": "sample-1.svg",
-      "summary": "An AI teammate for turning intent into working software.",
-      "text": "Codex is OpenAI’s software engineering agent. This card represents public team work, rather than a claim that one person built it alone. In this hypothetical portfolio, it would be a place to explore the journey from coding assistance to delegated work.",
+      "image": "codex-cli.png",
+      "summary": "From a coding assistant to a software engineering agent.",
+      "text": "A public OpenAI team project: delegate coding tasks and review the resulting changes. Explore the original launch and the open-source terminal agent below. This concept portfolio does not imply sole authorship by Tibo.",
       "links": [
         [
-          "About Codex",
-          "https://forum.openai.com/public/events/codex-is-for-everyone-why-codex-matters-beyond-code-fa40puy7wi"
+          "Official website",
+          "https://openai.com/codex/"
+        ],
+        [
+          "Launch article",
+          "https://openai.com/index/introducing-codex/"
+        ],
+        [
+          "GitHub",
+          "https://github.com/openai/codex"
         ]
-      ]
+      ],
+      "imageCredit": "OpenAI · Codex repository",
+      "imageSource": "https://github.com/openai/codex"
     },
     {
-      "title": "Agents in the Loop",
+      "title": "HumanEval / Code Models",
       "tag": "research",
-      "context": "Hypothetical research note",
-      "image": "sample-2.svg",
-      "summary": "What should an agent do alone—and when should it ask?",
-      "text": "A hypothetical research direction for this concept portfolio: study the handoffs between people and coding agents. Explore review checkpoints, useful feedback, and how to keep a person’s intent intact across a long task. This is an invented example, not a published paper or a claim about Tibo’s research.",
-      "links": []
+      "context": "Chen et al. · 2021 · Reading",
+      "image": "humaneval.png",
+      "summary": "Evaluating generated programs through functional correctness.",
+      "text": "Evaluating Large Language Models Trained on Code introduces the original Codex model and the HumanEval evaluation set. Included here as related reading for an imagined coding-agent portfolio, not as a paper authored by Tibo.",
+      "links": [
+        [
+          "Paper",
+          "https://arxiv.org/abs/2107.03374"
+        ],
+        [
+          "PDF",
+          "https://arxiv.org/pdf/2107.03374"
+        ],
+        [
+          "Code & dataset",
+          "https://github.com/openai/human-eval"
+        ]
+      ],
+      "imageCredit": "Chen et al. · arXiv:2107.03374",
+      "imageSource": "https://arxiv.org/abs/2107.03374"
     },
     {
-      "title": "A Workspace for Intent",
+      "title": "Codex App Workspace",
       "tag": "design",
-      "context": "Hypothetical interface study",
-      "image": "sample-3.svg",
-      "summary": "A calmer way to move from a vague idea to a concrete result.",
-      "text": "An imagined interface study: put the goal, active work, and reviewable results in one clear workspace. Use progressive detail so the next decision is easy to find. This concept is fictional and does not describe an internal OpenAI design.",
-      "links": []
+      "context": "OpenAI · Public interface study",
+      "image": "codex-app.png",
+      "summary": "A command center for working with multiple coding agents.",
+      "text": "A study of the publicly released Codex app: project-based threads, parallel work, and reviewable changes. The linked launch page and video show the real product. This is an editorial interface study, not a claim that Tibo personally designed each screen.",
+      "links": [
+        [
+          "Official introduction",
+          "https://openai.com/index/introducing-the-codex-app/"
+        ],
+        [
+          "Launch video",
+          "https://www.youtube.com/watch?v=HFM3se4lNiw"
+        ],
+        [
+          "Product website",
+          "https://openai.com/codex/"
+        ]
+      ],
+      "imageCredit": "OpenAI · Codex app cover",
+      "imageSource": "https://openai.com/index/introducing-the-codex-app/"
     },
     {
       "title": "Codex for Everyone",
       "tag": "project",
-      "context": "OpenAI Forum · Public conversation",
-      "image": "sample-4.svg",
-      "summary": "A conversation about agentic tools beyond software engineering.",
-      "text": "OpenAI Forum hosted a conversation with Thibault “Tibo” Sottiaux on May 13, 2026, about Codex and its use beyond coding. This public appearance provides a real anchor for the concept portfolio; this description is editorial sample copy.",
+      "context": "OpenAI Forum · May 13, 2026",
+      "image": "tibo-forum.jpg",
+      "summary": "Tibo on how coding agents can support work beyond code.",
+      "text": "A real OpenAI Forum conversation featuring Thibault “Tibo” Sottiaux. The session explores how Codex can be useful to people beyond traditional software development. Visit the event page or watch its replay.",
       "links": [
         [
-          "View the conversation",
+          "Event website",
           "https://forum.openai.com/public/events/codex-is-for-everyone-why-codex-matters-beyond-code-fa40puy7wi"
+        ],
+        [
+          "Watch replay",
+          "https://forum.openai.com/public/videos/event-replay-codex-is-for-everyone-why-codex-matters-beyond-code-2026-05-13"
         ]
-      ]
+      ],
+      "imageCredit": "OpenAI Forum · Event artwork",
+      "imageSource": "https://forum.openai.com/public/events/codex-is-for-everyone-why-codex-matters-beyond-code-fa40puy7wi"
     },
     {
-      "title": "Measuring Useful Work",
+      "title": "SWE-bench",
       "tag": "research",
-      "context": "Hypothetical evaluation sketch",
-      "image": "sample-5.svg",
-      "summary": "Can we evaluate the whole task, rather than just the next answer?",
-      "text": "An imagined evaluation sketch: look at task completion, review effort, and the quality of the final artifact. Ask what changes when a person supervises an agent instead of performing every step. This is fictional sample content, not a reported experiment or result.",
-      "links": []
+      "context": "Jimenez et al. · ICLR 2024 · Reading",
+      "image": "swebench.png",
+      "summary": "Can language models resolve real-world GitHub issues?",
+      "text": "SWE-bench evaluates repository-level software tasks using real GitHub issues and their corresponding fixes. Included as relevant benchmark reading, not as Tibo’s research. Follow the paper, benchmark website, and implementation below.",
+      "links": [
+        [
+          "Paper",
+          "https://arxiv.org/abs/2310.06770"
+        ],
+        [
+          "PDF",
+          "https://arxiv.org/pdf/2310.06770"
+        ],
+        [
+          "Benchmark website",
+          "https://www.swebench.com/"
+        ],
+        [
+          "Code",
+          "https://github.com/SWE-bench/SWE-bench"
+        ]
+      ],
+      "imageCredit": "Jimenez et al. · arXiv:2310.06770",
+      "imageSource": "https://arxiv.org/abs/2310.06770"
     },
     {
-      "title": "The Review Moment",
+      "title": "Terminal-native Interaction",
       "tag": "design",
-      "context": "Hypothetical interaction sketch",
-      "image": "sample-6.svg",
-      "summary": "Make the moment before approval clear, small, and actionable.",
-      "text": "A fictional design exercise: show what changed, why it matters, and what needs a decision. Explore previews and concise explanations that help someone review agent work with confidence. No real product authorship or unpublished work is implied.",
-      "links": []
+      "context": "OpenAI · Public interface study",
+      "image": "codex-cli.png",
+      "summary": "Meet the coding agent where developers already work.",
+      "text": "A design reading of Codex CLI’s public terminal interface: work with a coding agent without leaving a local development workflow. The screenshot comes from the official open-source repository. This is a template case study of a public product, not a personal design-credit claim.",
+      "links": [
+        [
+          "GitHub & interface",
+          "https://github.com/openai/codex"
+        ],
+        [
+          "Product website",
+          "https://openai.com/codex/"
+        ]
+      ],
+      "imageCredit": "OpenAI · Codex repository",
+      "imageSource": "https://github.com/openai/codex"
     }
   ]
 };
